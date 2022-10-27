@@ -1,0 +1,5 @@
+To duplicate lines - Alt+Shift + Down arrow
+To get dummy html - Shit + !
+Any tag - just type tag name and hit enter
+To get multiple times of any tag - Tagname*number hit enter
+To format document - Rt click and Format Document
