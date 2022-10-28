@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital Appointment Form</title>
+</head>
+<body>
+    <section>
+        <h2>Hospital Appoinment Form</h2>
+        <form action="URL to your backend server to which you want to send data">
+            <div>
+                <label for="f_name">First name</label>
+                <input type="text" name="f_name" id="f_name" required/>
+            </div>
+            <br>
+            <div>
+                <label for="l_name">Last name</label>
+                <input type="text" name="l_name" id="l_name" required/>
+            </div>
+            <br>
+            <div>
+                <label for="email">Enter email</label>
+                <input type="email" name="email" id="email" required/>
+            </div>
+            <br>
+            <div>
+                <label for="phone">Enter your phone number</label>
+                <input type="text" name="phone" id="phone" required/>
+            </div>
+            <br>
+            <div>
+                <label for="doa">Choose your date and time</label>
+                <input type="datetime-local" name="doa" id="doa" required/>
+            </div>
+            <br>
+            <div>
+                <label for="speciality">Choose your doctor department</label>
+                <select id="specilaity" name="specilaity" required>
+                    <option value="OPTH">Opthalmology</option>
+                    <option value="CARDIO">Cardiology</option>
+                    <option selected value="MED">Medicine</option>
+                    <option value="ORTHO">Othopadics</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label for="query">Ask your query</label>
+                <textarea name="query" id="query" cols="120" rows="10"></textarea>
+            </div>
+            <br>
+            <div>
+                <input type="submit" value="Book Appointment" id="btn_appointment"/>
+                <input type="reset" value="Reset form" id="btn_reset"/>
+            </div>
+        </form>
+    </section>
+</body>
+</html>
