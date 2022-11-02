@@ -5,6 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Electronic Website</title>
+    <style>
+        .scroll-top{
+            color: #ffffff;
+            border: 1px solid rgb(0, 174, 255);
+            background-color: #0300b3;
+            font-size: 40px;
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: bold;
+            text-align: center;
+            cursor: pointer;
+            border-radius: 10px;
+            text-decoration: none;
+            position: fixed;
+            bottom: 30px;
+            right: 20px;
+        }
+        #menu{
+            position: sticky;
+            top: 5px;
+            background-color: aqua;
+        }
+    </style>
 </head>
 <body>
     <nav>
@@ -96,6 +118,6 @@
             </nav>
         </section>
     </footer>
-    <a href="#menu">Scroll to Top</a>
+    <a href="#menu" class="scroll-top">^</a>
 </body>
 </html>

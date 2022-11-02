@@ -1,0 +1,47 @@
+.nav-container{
+    background-color: aquamarine;
+    height: 60px;
+    border-radius: 20px;
+}
+.nav-container ul{
+    list-style: none;
+    padding-top: 20px;
+}
+.nav-container ul li{
+    display: inline;
+    font-size: 20px;
+    color: brown;
+}
+.nav-container ul li:last-child{
+    margin-right: 20px;
+}
+.nav-container ul li a{
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 50px;
+}
+.nav-container ul li a:hover{
+    color: blue;
+    background-color: rgb(188, 245, 217);
+}
+.search-box{
+    float: right;
+}
+.search-box input{
+    height: 30px;
+    width: 200px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+.btn-search{
+    background-color: orange;
+    height: 30px;
+    width: 80px;
+    color: rgb(17, 111, 194);
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+}
