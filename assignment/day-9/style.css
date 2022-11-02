@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&family=Hachi+Maru+Pop&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;1,300;1,500;1,600&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+#navigation, #footer{
+    background-color: rgb(13, 118, 160);
+    padding: 12px;
+}
+#footer{
+    text-align: center;
+}
+.navbar{
+    display: flex;
+}
+.navbar-logo{
+    margin: 10px 20px;
+    color: rgb(26, 26, 160);
+    font-size: 22px;
+}
+.navbar-menu{
+    display: flex;
+    list-style: none;
+}
+.navbar-menu li{
+    margin: 10px;
+}
+.navbar-menu li a{
+    text-decoration: none;
+    color: antiquewhite;
+    font-size: 20px;
+}
+.banner-img{
+    background: no-repeat url('../../img1.jpg');
+    height: 70vh;
+    width: 100vw;
+    background-size: cover;
+}
+.banner{
+    position: relative;
+    color: rgb(13, 118, 160);
+    text-transform: uppercase;
+}
+.banner h1{
+    position: absolute;
+    top: 50%;
+    left: 36%;
+    font-size: 50px;
+    line-height: 20px;
+    letter-spacing: 3px;
+}
+.banner h2{
+    position: absolute;
+    top: 56%;
+    left: 42%;
+    font-size: 40px;
+    letter-spacing: 3px;
+}
+.about-layout{
+    display: flex;
+}
+.about-layout img, .about-layout p{
+    padding: 10px;
+}
+.section-heading{
+    text-align: center;
+    padding: 20px;
+}
+.services-layout, .teams-layout{
+    display: flex;
+    justify-content: space-evenly;
+}
+.card{
+    height: 400px;
+    width: 300px;
+    box-shadow: 10px 10px rgb(235, 237, 238);
+}
+.card-image{
+    width: 300px;
+    height: 180px;
+}
