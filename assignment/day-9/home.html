@@ -93,9 +93,25 @@
         </section>
         <section class="contact-section">
             <h1 class="section-heading">Contact us</h1>
-            <div class="contact-layout">
-                Contact us section
-            </div>
+            <form class="contact-layout" action="">
+                <div>
+                    <label for="name">Name</label>
+                    <input class="inputbox" type="text" id="name" placeholder="Enter your name" required>
+                </div>
+                <div>
+                    <label for="phone">Phone</label>
+                    <input class="inputbox" type="text" id="phone" placeholder="Enter your number" required>
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input class="inputbox" type="email" id="email" placeholder="Enter your email" required>
+                </div>
+                <div class="text-area">
+                    <label for="query">Your Query</label><br>
+                    <textarea class="inputbox" name="query" id="query" cols="90" rows="5"></textarea>
+                </div>
+                <button type="submit" class="btn">Submit</button>
+            </form>
         </section>
     </main>
     <footer id="footer">

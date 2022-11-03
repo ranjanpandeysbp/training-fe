@@ -10,7 +10,9 @@
     padding: 12px;
 }
 #footer{
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .navbar{
     display: flex;
@@ -40,7 +42,7 @@
 }
 .banner{
     position: relative;
-    color: rgb(13, 118, 160);
+    color: rgb(251 46 13);
     text-transform: uppercase;
 }
 .banner h1{
@@ -62,7 +64,7 @@
     display: flex;
 }
 .about-layout img, .about-layout p{
-    padding: 10px;
+    padding: 12px;
 }
 .section-heading{
     text-align: center;
@@ -80,4 +82,35 @@
 .card-image{
     width: 300px;
     height: 180px;
+}
+.contact-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.inputbox{
+    width: 40vw;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.text-area{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    background-color: rgb(13, 118, 160);
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+    color: antiquewhite;
+    font-size: 20px;
+    width: 20vw;
+}
+.contact-layout .btn{
+    margin-left: 180px;
 }

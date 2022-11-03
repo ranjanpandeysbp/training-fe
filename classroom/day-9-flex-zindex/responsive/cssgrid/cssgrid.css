@@ -1,0 +1,26 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-row-gap: 40px;
+    grid-column-gap: 20px;
+}
+.box{
+    height: 200px;
+    border: 1px solid gray;
+    box-shadow: 10px 10px rgb(145, 255, 0);
+}
+.box:nth-of-type(2){
+    box-shadow: 10px 10px rgb(0, 217, 255);
+}
+.box:nth-of-type(3){
+    box-shadow: 10px 10px rgb(66, 33, 126);
+}
+.box:nth-of-type(4){
+    box-shadow: 10px 10px rgb(140, 185, 15);
+}
+.box:nth-of-type(5){
+    box-shadow: 10px 10px rgb(231, 81, 35);
+}
+.box:nth-of-type(6){
+    box-shadow: 10px 10px rgb(231, 35, 198);
+}
