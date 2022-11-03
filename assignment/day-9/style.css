@@ -5,11 +5,20 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+#navigation{
+    position: sticky;
+    top: 1px;
+}
 #navigation, #footer{
     background-color: rgb(13, 118, 160);
     padding: 12px;
 }
-#footer{
+#footer .navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#footer .copyright{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,9 +27,10 @@
     display: flex;
 }
 .navbar-logo{
-    margin: 10px 20px;
-    color: rgb(26, 26, 160);
+    margin: 8px 20px;
+    color: rgb(224, 247, 17);
     font-size: 22px;
+    font-weight: bold;
 }
 .navbar-menu{
     display: flex;
@@ -34,6 +44,11 @@
     color: antiquewhite;
     font-size: 20px;
 }
+.navbar-menu li a:hover{
+    background-color: rgb(107, 191, 224);
+    padding: 8px;
+    border-radius: 10px;
+}
 .banner-img{
     background: no-repeat url('../../img1.jpg');
     height: 70vh;
@@ -42,7 +57,7 @@
 }
 .banner{
     position: relative;
-    color: rgb(251 46 13);
+    color: rgb(224, 247, 17);
     text-transform: uppercase;
 }
 .banner h1{
@@ -75,14 +90,54 @@
     justify-content: space-evenly;
 }
 .card{
-    height: 400px;
+    height: 395px;
     width: 300px;
-    box-shadow: 10px 10px rgb(235, 237, 238);
+    border: 1px solid #cecece;
+    box-shadow: 7px 7px #e9e8e8;
+}
+.card:hover{
+    scale: 1.1;
 }
 .card-image{
     width: 300px;
     height: 180px;
 }
+.card-content{
+    padding: 5px;
+}
+.card-content-list{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.card-team-member{
+    display: flex;
+    border-radius: 10px;
+    flex-direction: column;
+    padding: 10px;
+    width: 200px;
+    border: 2px solid #cecece;
+    box-shadow: 10px 10px rgb(248, 246, 246);
+}
+.card-team-member:hover{
+    scale: 1.1;
+}
+.card-team-member img{
+    margin-left: 8px;
+}
+.card-content-team-member{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.card-team-image{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+}
+
 .contact-section{
     display: flex;
     flex-direction: column;
@@ -95,6 +150,9 @@
     padding: 5px;
     border-radius: 5px;
     margin-bottom: 10px;
+}
+#email{
+    margin-left: 5px;
 }
 .text-area{
     display: flex;
@@ -111,6 +169,12 @@
     font-size: 20px;
     width: 20vw;
 }
+.btn:hover{
+    background-color: rgb(107, 191, 224);
+}
+.contact-layout textarea{
+    margin-left: 48px;
+}
 .contact-layout .btn{
-    margin-left: 180px;
+    margin-left: 185px;
 }
