@@ -1,0 +1,11 @@
+.custom-font{
+    font-family: 'Poppins', sans-serif;
+}
+.cta-bg-gradient {
+    height: 155px;
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to bottom right, red ,yellow, blue);
+  }
+  .carousel-inner .carousel-item img{
+    height: 60vh;
+  }
